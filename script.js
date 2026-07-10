@@ -153,3 +153,19 @@ function createConfetti(){
     }
 
 }
+
+
+// Episode 1 controls
+
+function openEpisode1(){
+
+    document.getElementById("episode1").style.display="block";
+
+}
+
+
+function closeEpisode1(){
+
+    document.getElementById("episode1").style.display="none";
+
+}
