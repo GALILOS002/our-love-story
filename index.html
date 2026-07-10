@@ -81,10 +81,10 @@
                     <p>Our First Month Together 🎂</p>
                 </div>
 
-                <div class="episode">
-                    <h3>Episode 4</h3>
-                    <p>Our Future 🌙</p>
-                </div>
+                <div class="episode" onclick="openEpisode1()">
+    <h3>Episode 1</h3>
+    <p>The Day We Met ✨</p>
+</div>
 
             </div>
         </section>
@@ -106,7 +106,7 @@
                 <img src="photo6.jpg" alt="Memory 6">
                 <img src="photo7.jpg" alt="Memory 7">
                 <img src="photo8.jpg" alt="Memory 8">
-                <img src="photo9.jpg" alt="Memory 9">
+                <img src="photo 9.jpg" alt="Memory 9">
                 <img src="photo10.jpg" alt="Memory 10">
 
             </div>
@@ -185,9 +185,53 @@ Luv u. 🤍🩷
 
 
 
-        <footer>
-            Made with ❤️ by GALILOS for MILOS
-        </footer>
+        <section>
+
+    <h2>Our Time Together</h2>
+
+    <div id="timer">
+        Loading...
+    </div>
+
+</section>
+
+
+<!-- Episode 1 Page START -->
+
+<div id="episode1" class="episode-page">
+
+    <h2>Episode 1 — The Day We Met ✨</h2>
+
+    <img src="photo1.jpg" class="episode-photo">
+
+    <p>
+    Dear MILOS,
+    <br><br>
+
+    This was the beginning of our story...
+    Write your own memories here.
+
+    <br><br>
+
+    I will always remember this moment ❤️
+    </p>
+
+    <audio controls>
+        <source src="episode1.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="closeEpisode1()">
+        Close Episode
+    </button>
+
+</div>
+
+<!-- Episode 1 Page END -->
+
+
+<footer>
+    Made with ❤️ by GALILOS for MILOS
+</footer>
 
 
     </main>
